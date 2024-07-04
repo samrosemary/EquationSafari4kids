@@ -1,0 +1,124 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  background-image: url("multi-back.png");
+    background-repeat: no-repeat;
+    
+}
+
+.header {
+  overflow: hidden;
+  background-color: #5f8c50ff;
+  padding: 20px 10px;
+  
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+    font-family: 'Lakki Reddy';
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+    
+}
+
+.header a:hover {
+  background-color: #e3cf81ff;
+  color: black;
+    text-decoration: none;
+}
+
+.header a.active {
+  background-color: #e3cf81ff;
+  color: black;
+}
+
+.header-right {
+  float: right;
+    margin-top:60px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+      
+  }
+  
+  .header-right {
+    float: none;
+  }
+    
+    
+    
+}
+
+
+
+.intro{
+   font-family:'Lakki Reddy';
+    color:white;
+    background-color: #5f8c50ff;
+    padding:6px;
+    
+}
+
+.intro:hover{
+    color:black;
+    background-color:white;
+}
+
+
+#piks{
+    margin-top:20px;
+}
+
+.imge{
+    border:5px solid black;
+}
+
+.imge:hover{
+    filter: brightness(30%);
+}
+
+
+#footer {
+    background-color: #5f8c50ff;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#box1{
+    margin:0;
+    padding:50px;
+}
+
+#box2{
+    margin:0;
+    padding:50px;
+}
+
+#box3{
+    margin:0;
+    padding:50px;
+}
+
+#box4{
+    margin:0;
+    padding:50px;
+}

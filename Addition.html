@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Addition</title>
+        <link rel="stylesheet" href="addition.css">
+        <link href='https://fonts.googleapis.com/css?family=Lakki Reddy' rel='stylesheet'>
+    </head>
+    <body>
+    <div class="header">
+  <a href="index.html" class="logo"><img src="Equation%20Safari%204%20kids.png" width="150px"></a>
+  <div class="header-right">
+    <a href="index.html">Home</a>
+    <a class="active" href="Addition.html">Addition</a>
+    <a href="subtraction.html">Subtraction</a>
+      <a href="multiplication.html">Multiplications</a>
+      <a href="division.html">Divisions</a>
+  </div>
+</div>
+           <div class="container">
+        <form class="form" id="form">
+            
+            <h1 id="question">Do you know 1 + 1?</h1>
+            <input type="text" class="input" id="input" placeholder="What is your answer?" autofocus autocomplete="off">
+            <button type="submit" class="btn">Have you navigated this correctly?</button>
+        </form>
+        <div id="controls">
+            <button id="start-btn" class="btn">Start</button>
+            <button id="reset-btn" class="btn">Reset</button>
+            <p id="timer">Time remaining: 60s</p>
+            <p id="score">Wilderness Tally: 0</p>
+        </div>
+        <div id="leaderboard">
+            <h2>Leaderboard</h2>
+            <ol id="leaderboard-list"></ol>
+        </div>
+    </div>
+    <footer id="footer">
+        <div>Equation Safari 4 kids by Samantha R Clark &copy; rights reserved 2024</div>
+    </footer>
+        <!-- Audio elements -->
+    <audio id="correctSound" src="correct.mp3"></audio>
+    <audio id="wrongSound" src="wrong.mp3"></audio>
+        
+        
+    <script src="Additions.js">
+        
+        </script>
+    </body>
+</html>
